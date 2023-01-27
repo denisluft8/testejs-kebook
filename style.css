@@ -36,6 +36,18 @@ body {
   height: 28px;
 }
 
+.plano__button {
+  background: linear-gradient(to right, #b800ff, #8000ff);
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  color: white;
+  font-weight: 700;
+  height: 40px;
+  margin-bottom: 12px;
+  width: 150px;
+}
+
 .plano-completo {
   background-color: #fff;
   border-radius: 20px;
@@ -61,7 +73,6 @@ body {
 
 .valor-total {
   font-size: 30px;
-  margin-bottom: 10%;
 }
 
 .slide__icons {
@@ -133,6 +144,7 @@ body {
   text-align: center;
   transition: background 600ms ease, color 600ms ease;
 }
+
 input[type="radio"].toggle {
   display: none;
 }
