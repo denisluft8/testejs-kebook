@@ -10,19 +10,58 @@
         Selecione o número de clientes que deseja gerenciar para ver nossos
         valores
       </p>
-      <h2>SELECIONE A QUANTIDADE DE PERFIS</h2>
+      <h2 class="title">SELECIONE A QUANTIDADE DE PERFIS</h2>
       <div class="slide__container">
         <div class="slide__count">
-          <img class="slide__left" src="./assets/sort-left-svgrepo-com.svg" />
+          <img
+            class="slide__sides"
+            id="slide-left"
+            src="./assets/sort-left-svgrepo-com.svg"
+          />
           <h2 class="slide__value">1</h2>
-          <img class="slide__right" src="./assets/sort-right-svgrepo-com.svg" />
+          <img
+            id="slide-right"
+            class="slide__sides"
+            src="./assets/sort-right-svgrepo-com.svg"
+          />
         </div>
         <input class="slide__input" type="range" min="1" max="10" value="1" />
+        <p id="icons-title">CADA PERFIL CONTEMPLA</p>
+        <div class="slide__icons">
+          <a>
+            <img class="logo" src="./assets/youtube-svgrepo-com.svg" />
+          </a>
+          <img class="logo" src="./assets/instagram-svgrepo-com.svg" />
+          <img class="logo" src="./assets/twitter-svgrepo-com.svg" />
+          <img class="logo" src="./assets/facebook-svgrepo-com.svg" />
+          <img class="logo" src="./assets/linkedin-svgrepo-com.svg" />
+        </div>
       </div>
-      <h2>SELECIONE O PERÍODO DO SEU PAGAMENTO</h2>
-      <div></div>
-      <div>
-        <h2>Plano Completo</h2>
+      <h2 class="title">SELECIONE O PERÍODO DO SEU PAGAMENTO</h2>
+      <div class="teste">
+        <div class="switch__container">
+          <input
+            id="toggle-on"
+            class="toggle toggle-left"
+            name="toggle"
+            value="false"
+            type="radio"
+            checked
+          />
+          <label for="toggle-on" class="btn">Mensal</label>
+          <input
+            id="toggle-off"
+            class="toggle toggle-right"
+            name="toggle"
+            value="true"
+            type="radio"
+          />
+          <label for="toggle-off" class="btn">Anual</label>
+        </div>
+      </div>
+      <div class="plano-completo">
+        <h2 class="plano__title">Plano Completo</h2>
+        <h3 class="valor-total">R$100,00</h3>
       </div>
     </div>
     <script type="text/javascript" src="script.js"></script>
